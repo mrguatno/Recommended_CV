@@ -33,9 +33,9 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
-                    layer: 'consolidated',
-                    opacity: 1,
-                    duration: 5000
+                    // layer: 'consolidated',
+                    // opacity: 1,
+                    // duration: 5000
                 }
             ],
             onChapterExit: [
@@ -70,8 +70,8 @@ var config = {
             onChapterEnter: [],
             onChapterExit: [
                 {
-                    layer: 'road',
-                    opacity: 0,
+                    // layer: 'road',
+                    // opacity: 0,
                 }
             ]
         },
@@ -91,14 +91,7 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [
-                    {
-                        layer: 'consolidated',
-                        opacity: 1,
-                        duration: 5000
-                    }
-
-            ],
+            onChapterEnter: [],
             onChapterExit: []
         },
         {
