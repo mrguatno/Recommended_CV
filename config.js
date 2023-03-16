@@ -99,15 +99,15 @@ var config = {
             hidden: false,
             title: 'Baclayon',
             image: 'https://github.com/mrguatno/Recommended_CV/blob/main/images/Baclayon%20heritage%20house%202.JPG?raw=true',
-            description: 'Ancestral House <br>Broa Making',
+            description: 'Ancestral House <br>Broa Making <br>Museum',
             location: {
                 center: [123.91298, 9.62682],
                 zoom: 13,
                 pitch: 45,
-                bearing: 0
+                bearing: 30
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 {layer: 'road', opacity: 1},
@@ -131,10 +131,10 @@ var config = {
                 center: [123.95744, 9.61329],
                 zoom: 13,
                 pitch: 45,
-                bearing: 0
+                bearing: -30
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 {layer: 'road', opacity: 1},
@@ -158,10 +158,10 @@ var config = {
                 center: [124.03107, 9.63574],
                 zoom: 13,
                 pitch: 45,
-                bearing: 0
+                bearing: 30
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 {layer: 'road', opacity: 1},
@@ -185,10 +185,10 @@ var config = {
                 center: [124.04607, 9.70351],
                 zoom: 13,
                 pitch: 45,
-                bearing: 0
+                bearing: -30
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 {layer: 'road', opacity: 1},
@@ -212,10 +212,10 @@ var config = {
                 center: [124.01060, 9.60084],
                 zoom: 13,
                 pitch: 45,
-                bearing: 0
+                bearing: 30
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 {layer: 'road', opacity: 1},
