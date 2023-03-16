@@ -10,10 +10,7 @@ var config = {
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'The Title Text of this Story',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By a Digital Storyteller',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'Step Up Consulting Services - Ideas that serve. Service that works.',
     chapters: [
         {
             id: 'slug-style-id',
@@ -98,22 +95,199 @@ var config = {
         },
         {
             id: 'fourth-chapter',
-            alignment: 'fully',
+            alignment: 'left',
             hidden: false,
-            title: 'Third Title',
+            title: 'Baclayon',
             image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            description: 'Ancestral House <br>Broa Making',
             location: {
-                center: [-58.54195, -34.71600],
-                zoom: 4,
-                pitch: 0,
+                center: [123.91298, 9.62682],
+                zoom: 13,
+                pitch: 45,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
+            onChapterEnter: [
+                {layer: 'road', opacity: 1},
+                {layer: 'loay', opacity: 0},
+                {layer: 'albur', opacity: 0},
+                {layer: 'loboc', opacity:0},
+                {layer: 'baclayon', opacity: 0.3},
+                {layer: 'consolidated', opacity: 0},
+                {layer: 'sevilla', opacity: 0}
+            ],
             onChapterExit: []
+        },
+        {
+            id: 'fifth-chapter',
+            alignment: 'left',
+            hidden: false,
+            title: 'Alburquerque',
+            image: './path/to/image/source.png',
+            description: 'Asin Tibuok <br>Loom Weaving <br>Calamay Production <br>Broom Making',
+            location: {
+                center: [123.95744, 9.61329],
+                zoom: 13,
+                pitch: 45,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {layer: 'road', opacity: 1},
+                {layer: 'loay', opacity: 0},
+                {layer: 'albur', opacity: 0.3},
+                {layer: 'loboc', opacity:0},
+                {layer: 'baclayon', opacity: 0},
+                {layer: 'consolidated', opacity: 0},
+                {layer: 'sevilla', opacity: 0}
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'sixth-chapter',
+            alignment: 'left',
+            hidden: false,
+            title: 'Loboc',
+            image: './path/to/image/source.png',
+            description: 'River Cruise <br>Loboc Music',
+            location: {
+                center: [124.03107, 9.63574],
+                zoom: 13,
+                pitch: 45,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {layer: 'road', opacity: 1},
+                {layer: 'loay', opacity: 0},
+                {layer: 'albur', opacity: 0},
+                {layer: 'loboc', opacity: 0.3},
+                {layer: 'baclayon', opacity: 0},
+                {layer: 'consolidated', opacity: 0},
+                {layer: 'sevilla', opacity: 0}
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'seventh-chapter',
+            alignment: 'left',
+            hidden: false,
+            title: 'Sevilla',
+            image: './path/to/image/source.png',
+            description: 'Sipatan Twin Hanging Bridge <br>Agri-Tourism Spaces',
+            location: {
+                center: [124.04607, 9.70351],
+                zoom: 13,
+                pitch: 45,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {layer: 'road', opacity: 1},
+                {layer: 'loay', opacity: 0},
+                {layer: 'albur', opacity: 0},
+                {layer: 'loboc', opacity: 0},
+                {layer: 'baclayon', opacity: 0},
+                {layer: 'consolidated', opacity: 0},
+                {layer: 'sevilla', opacity: 0.3}
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'eight-chapter',
+            alignment: 'left',
+            hidden: false,
+            title: 'Loay',
+            image: './path/to/image/source.png',
+            description: 'River Cruise <br>Clarin Ancestral House <br>Sandugo',
+            location: {
+                center: [124.01060, 9.60084],
+                zoom: 13,
+                pitch: 45,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {layer: 'road', opacity: 1},
+                {layer: 'loay', opacity: 0.3},
+                {layer: 'albur', opacity: 0},
+                {layer: 'loboc', opacity: 0},
+                {layer: 'baclayon', opacity: 0},
+                {layer: 'consolidated', opacity: 0},
+                {layer: 'sevilla', opacity: 0}
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'ninth-chapter',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: './path/to/image/source.png',
+            description: '',
+            location: {
+                center: [124.01060, 9.60084],
+                zoom: 17,
+                pitch: 45,
+                bearing: 30
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                {layer: 'road', opacity: 1},
+                {layer: 'loay', opacity: 0},
+                {layer: 'albur', opacity: 0},
+                {layer: 'loboc', opacity: 0},
+                {layer: 'baclayon', opacity: 0},
+                {layer: 'consolidated', opacity: 0},
+                {layer: 'spot', opacity: 0.6},
+                {layer: 'sevilla', opacity: 0}
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'tenth-identifier',
+            alignment: 'right',
+            hidden: true,
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [124.02634, 9.65241],
+                zoom: 11,
+                pitch: 0,
+                bearing: 0,
+                // flyTo additional controls-
+                // These options control the flight curve, making it move
+                // slowly and zoom out almost completely before starting
+                // to pan.
+                //speed: 2, // make the flying slow
+                //curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {layer: 'road', opacity: 1},
+                {layer: 'loay', opacity: 0.3},
+                {layer: 'albur', opacity: 0.3},
+                {layer: 'loboc', opacity:0.3},
+                {layer: 'baclayon', opacity: 0.3},
+                {layer: 'sevilla', opacity: 0.3}
+            ],
+            onChapterExit: [
+            ]
         }
     ]
 };
