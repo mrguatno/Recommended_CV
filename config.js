@@ -32,17 +32,17 @@ var config = {
             rotateAnimation: false,
             callback: '',
             onChapterEnter: [
-                {
-                    // layer: 'consolidated',
-                    // opacity: 1,
-                    // duration: 5000
-                }
+                {layer: 'loay', opacity: 0},
+                {layer: 'albur', opacity: 0},
+                {layer: 'loboc', opacity: 0},
+                {layer: 'road', opacity: 0},
+                {layer: 'baclayon', opacity: 0},
+                {layer: 'sevilla', opacity: 0},
+                {layer: 'spot', opacity: 0},
+                {layer: 'consolidated', opacity: 0},
             ],
             onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
+                {layer: 'road', opacity: 1}
             ]
         },
         {
@@ -55,7 +55,7 @@ var config = {
             location: {
                 center: [124.02634, 9.65241],
                 zoom: 11,
-                pitch: 60,
+                pitch: 45,
                 bearing: -43.2,
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
@@ -69,10 +69,12 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: [
-                {
-                    // layer: 'road',
-                    // opacity: 0,
-                }
+                {layer: 'road', opacity: 1},
+                {layer: 'loay', opacity: 0.3},
+                {layer: 'albur', opacity: 0.3},
+                {layer: 'loboc', opacity:0.3},
+                {layer: 'baclayon', opacity: 0.3},
+                {layer: 'sevilla', opacity: 0.3},
             ]
         },
         {
@@ -83,8 +85,8 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [124.1637, 9.9],
-                zoom: 9.8,
+                center: [124.02634, 9.65241],
+                zoom: 11,
                 pitch: 0,
                 bearing: 0.00
             },
