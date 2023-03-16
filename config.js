@@ -56,7 +56,7 @@ var config = {
                 center: [124.02634, 9.65241],
                 zoom: 11,
                 pitch: 45,
-                bearing: -43.2,
+                bearing: -20.2,
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
