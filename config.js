@@ -98,7 +98,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Baclayon',
-            image: './path/to/image/source.png',
+            image: 'https://github.com/mrguatno/Recommended_CV/blob/main/images/Baclayon%20heritage%20house%202.JPG?raw=true',
             description: 'Ancestral House <br>Broa Making',
             location: {
                 center: [123.91298, 9.62682],
@@ -152,7 +152,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Loboc',
-            image: './path/to/image/source.png',
+            image: 'https://github.com/mrguatno/Recommended_CV/blob/main/images/Loboc%20childrens%20choir.JPG?raw=true',
             description: 'River Cruise <br>Loboc Music',
             location: {
                 center: [124.03107, 9.63574],
@@ -179,7 +179,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Sevilla',
-            image: './path/to/image/source.png',
+            image: 'https://github.com/mrguatno/Recommended_CV/blob/main/images/Sevilla%20river%202.JPG?raw=true',
             description: 'Sipatan Twin Hanging Bridge <br>Agri-Tourism Spaces',
             location: {
                 center: [124.04607, 9.70351],
@@ -206,7 +206,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Loay',
-            image: './path/to/image/source.png',
+            image: 'https://github.com/mrguatno/Recommended_CV/blob/main/images/Bolo%20making%202.JPG?raw=true',
             description: 'River Cruise <br>Clarin Ancestral House <br>Sandugo',
             location: {
                 center: [124.01060, 9.60084],
@@ -233,7 +233,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: './path/to/image/source.png',
+            image: 'https://github.com/mrguatno/Recommended_CV/blob/main/images/Loay%20Clarin%20ancestral%20house%204.JPEG?raw=true',
             description: '',
             location: {
                 center: [124.01060, 9.60084],
