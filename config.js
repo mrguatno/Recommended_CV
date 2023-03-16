@@ -125,7 +125,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Alburquerque',
-            image: './path/to/image/source.png',
+            image: 'https://github.com/mrguatno/Recommended_CV/blob/main/images/Minimalist%20Elderly%20couple%20Photo%20Collage%20Instagram%20Post.png?raw=true',
             description: 'Asin Tibuok <br>Loom Weaving <br>Calamay Production <br>Broom Making <br>Pottery Making',
             location: {
                 center: [123.95744, 9.61329],
